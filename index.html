@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <title>Hibba Kamas | Computer Science & AI</title>
+
+  <meta name="description"
+    content="Portfolio of Hibba Kamas, Computer Science & AI student. Projects in machine learning, data, cloud, and software development." />
+  <meta name="keywords"
+    content="Hibba Kamas, portfolio, computer science, AI, machine learning, data analysis, software development, Azure, Docker, Flask" />
+
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Hibba Kamas</span>
+        </h1>
+        <p>Computer Science & AI student</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Projects ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Projects</h2>
+        <div class="work__boxes">
+
+          <!-- Moodify (FIRST) -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Moodify</h3>
+              <p>
+                Machine learning pipeline that predicts a song’s mood by generating labels via clustering
+                and training supervised models on audio features.
+              </p>
+
+              <ul class="work__list">
+                <li>Exploratory data analysis</li>
+                <li>Unsupervised + supervised pipeline</li>
+                <li>Feature engineering & scaling</li>
+                <li>Hyperparameter tuning</li>
+                <li>Model evaluation and selection</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/cayetana-h/Moodify" target="_blank" class="link__text" rel="noreferrer">
+                  View Repo <span>&rarr;</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1XrnxYbZ4V6qPO1-flh19QY_Y-B-K1Ov-/view?usp=sharing" class="link__text" target="_blank" style="margin-left: 2rem;">View Poster →</a>
+              </div>
+            </div>
+
+            <div class="work__image-box">
+              <!-- Replace with your Moodify screenshot later -->
+              <img src="./images/project-4.png" class="work__image" alt="Moodify project screenshot" />
+            </div>
+          </div>
+
+          <!-- PopIn (SECOND) -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>PopIn</h3>
+              <p>
+                Multi-user city events platform with role-based dashboards for Attendees, Organizers, and Admins,
+                built with a JavaFX GUI and a relational database for persistence.
+              </p>
+
+              <ul class="work__list">
+                <li>Java & OOP</li>
+                <li>JavaFX GUI</li>
+                <li>Role-based dashboards</li>
+                <li>MVC-style architecture</li>
+                <li>Relational database persistence</li>
+                <li>Defensive programming</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/hibbakamas/PopIn" target="_blank" class="link__text" rel="noreferrer">
+                  View Repo <span>&rarr;</span>
+                </a>
+
+                <a href="https://drive.google.com/file/d/1rBV8fz1MAMgvw7AnoHYIsE-fDiB9WL6Q/view"
+                  target="_blank" class="link__text" rel="noreferrer" style="margin-left: 2rem;">
+                  Demo Video <span>&rarr;</span>
+                </a>
+
+              </div>
+            </div>
+
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="PopIn project screenshot" />
+            </div>
+          </div>
+
+          <!-- Polyglot Captions (THIRD) -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Mora</h3>
+              <p>
+                Cloud-based multilingual caption translation platform supporting speech-to-text
+                and manual text translation, deployed on Microsoft Azure.
+              </p>
+              <ul class="work__list">
+                <li>FastAPI backend</li>
+                <li>Dockerized services</li>
+                <li>Azure App Service & SQL</li>
+                <li>CI/CD with GitHub Actions</li>
+                <li>Application monitoring</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/hibbakamas/PolyglotCaptions" target="_blank" class="link__text"
+                  rel="noreferrer">
+                  View Repo <span>&rarr;</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1GM-56ogIr39209g4PYpRQ-85NgNzf83O/view"
+                  target="_blank" class="link__text" rel="noreferrer" style="margin-left: 2rem;">
+                  Demo Video <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="work__image-box">
+              <img src="./images/project-2.png" class="work__image" alt="Polyglot Captions screenshot" />
+            </div>
+          </div>
+
+          <!-- PetCare (FOURTH) -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>PetCare</h3>
+              <p>
+                Individual full-stack Flask web application for household pet management,
+                featuring authentication, CI/CD automation, Docker containerization, and Azure deployment.
+              </p>
+              <ul class="work__list">
+                <li>Flask & SQLAlchemy</li>
+                <li>REST APIs</li>
+                <li>Docker</li>
+                <li>GitHub Actions (CI/CD)</li>
+                <li>Azure Web App</li>
+                <li>Automated testing (91% coverage)</li>
+                <li>Health & metrics endpoints</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/hibbakamas/petcare" target="_blank" class="link__text"
+                  rel="noreferrer">
+                  View Repo <span>&rarr;</span>
+                </a>
+                <a href="https://petcare-web.azurewebsites.net/login" target="_blank" class="link__text"
+                  rel="noreferrer" style="margin-left: 2rem;">
+                  Live Demo <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="PetCare dashboard screenshot" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              I’m a Computer Science & AI student with interests in machine learning, data, and
+              building practical software systems. I enjoy turning ideas into working products
+              and strengthening them with testing, automation, and cloud deployment.
+            </p>
+          </div>
+
+          <div class="about__photo-container">
+            <img class="about__photo" src="./images/hibba.jpeg" alt="Portrait of Hibba" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Contact</h2>
+      <div class="contact__info">
+        <p>
+          If you’d like to connect about internships or projects, feel free to contact me.
+        </p>
+        <a href="mailto:hibbakamas@gmail.com" class="btn">hibbakamas@gmail.com</a>
+        <a href="https://www.linkedin.com/in/hibba-kamas" target="_blank" class="btn" style="margin-left: 1rem;">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/hibbakamas" title="GitHub" target="_blank" rel="noreferrer">
+            <img src="./images/github.svg" class="footer__social-image" alt="GitHub">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/hibba-kamas" title="LinkedIn" target="_blank"
+            rel="noreferrer">
+            <img src="./images/linkedin.svg" class="footer__social-image" alt="LinkedIn">
+          </a>
+        </li>
+      </ul>
+
+      <p>&copy; <span id="year"></span> Hibba Kamas</p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+  </a>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="./index.js"></script>
+</body>
+
+</html>

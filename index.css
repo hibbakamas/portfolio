@@ -584,6 +584,25 @@ body:not(.user-is-tabbing) a:focus {
     max-width: var(--container-medium-width);
 }
 
+.contact__buttons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Mobile fix */
+@media (max-width: 600px) {
+  .contact__buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact__buttons .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 /* --------------------------------------- */
 /* ----- Footer ----- */
 /* --------------------------------------- */

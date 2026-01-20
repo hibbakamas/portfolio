@@ -439,11 +439,11 @@ body:not(.user-is-tabbing) a:focus {
 /* Mobile header alignment */
 @media (max-width: 768px) {
   .header__text {
-    text-align: center;
+    text-align: center !important;
   }
 
   .heading-primary {
-    text-align: center;
+    text-align: center !important;
   }
 
   .header__text p {

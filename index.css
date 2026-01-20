@@ -611,16 +611,25 @@ body:not(.user-is-tabbing) a:focus {
   margin-top: 2rem;
 }
 
-/* Mobile fix */
+.contact__buttons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Mobile */
 @media (max-width: 600px) {
   .contact__buttons {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start; /* left aligned like your screenshot */
   }
 
   .contact__buttons .btn {
-    width: 100%;
+    width: 280px;            /* SAME FIXED WIDTH */
+    padding: 1.2rem 2rem;
     text-align: center;
+    white-space: normal;     /* allow email to wrap */
+    word-break: break-word;
   }
 }
 

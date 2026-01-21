@@ -674,83 +674,45 @@ body:not(.user-is-tabbing) a:focus {
     } 
 }
 
-@media (max-width: 600px) {
-  .header__text-box {
-    text-align: center;
-  }
-
-  .header__text {
-    align-items: center;
-  }
-
-  .heading-primary {
-    text-align: center;
-  }
-
-  .header__text p {
-    text-align: center;
-  }
-}
-@media (max-width: 600px) {
-  .header__text .btn {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media (max-width: 600px) {
-  .header__text-box {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  .header__text {
-    width: 100%;
-    text-align: center;
-  }
-
-  .heading-primary span {
-    display: block;
-    text-align: center;
-  }
-}
-@media (max-width: 600px) {
-  .heading-primary {
-    font-size: 3.2rem;
-  }
-}
-
-/* Mobile header centering - add at bottom */
+/* Mobile header alignment - REPLACE ALL EXISTING MOBILE HEADER CSS WITH THIS */
 @media (max-width: 768px) {
   .header__text-box {
-    width: 100%;
+    position: relative;
+    height: 100vh;
     display: flex;
+    align-items: center;
     justify-content: center;
   }
   
   .header__text {
-    position: static;
+    position: relative;
+    top: auto;
     transform: none;
     text-align: center;
     width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
+    padding: 0 2rem;
   }
-  
+
   .heading-primary {
+    font-size: var(--font-size-huge);
     text-align: center;
-    margin: 0 auto;
   }
-  
+
   .header__text p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    transform: none;
   }
-  
+
   .header__text .btn {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 2rem auto 0;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 500px) {
+  .heading-primary {
+    font-size: var(--font-size-large);
   }
 }

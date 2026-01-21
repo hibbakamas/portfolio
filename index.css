@@ -720,3 +720,12 @@ body:not(.user-is-tabbing) a:focus {
     font-size: 3.2rem;
   }
 }
+
+/* Mobile header centering - add at bottom */
+@media (max-width: 768px) {
+  .header__text {
+    left: 0;
+    right: 0;
+    padding: 0 2rem;
+  }
+}

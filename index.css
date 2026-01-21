@@ -697,3 +697,26 @@ body:not(.user-is-tabbing) a:focus {
     margin-right: auto;
   }
 }
+
+@media (max-width: 600px) {
+  .header__text-box {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .header__text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .heading-primary span {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+}

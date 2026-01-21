@@ -723,9 +723,21 @@ body:not(.user-is-tabbing) a:focus {
 
 /* Mobile header centering - add at bottom */
 @media (max-width: 768px) {
+  .header__text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   .header__text {
-    left: 0;
-    right: 0;
-    padding: 0 2rem;
+    position: static;
+    transform: none;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .heading-primary,
+  .header__text p {
+    text-align: center;
   }
 }
